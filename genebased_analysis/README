@@ -1,0 +1,5 @@
+Rscripts for running gene-level burden analysis
+- 1_getGenesWith12Samples.R - as required for statistical power, we only tested genes with atleast 12 individuals having CNVs impacting the gene. This will list down the genes for subsequent analysis and prepare some necessary files.
+- burdenIndividualPlatform.R - burden analysis script for family-based comparison
+- burdenFamIndividualPlatform.R - burden analysis script for family-based comparison
+

@@ -1,0 +1,5 @@
+Rscripts for running geneset burden analysis
+- 1_getCNVMatrix.R = take CNVs table, sample metadata, gene definition, and gene set definition to generate a geneset count matrix together for burden analysis
+- burden.R - burden analysis script for case-control comparison
+- burdenFamily.R - burden analysis script for family-based comparison
+- functions.R - file contains functions necessary for the analysis

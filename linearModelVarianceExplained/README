@@ -1,0 +1,5 @@
+Rscripts to calculate R-squared for various terms in linear model.
+
+full_model_r2_calculation.R - to estimate the R-squared of the entired model
+interaction_term_r2.R - to estimate R-squared specifically for interaction term
+anovaTest - to compare a model and its nested model to estimate significant level

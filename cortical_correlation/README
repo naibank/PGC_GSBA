@@ -1,0 +1,5 @@
+Rscripts for performing correlation analysis between brain maps using Kendall analysis and SPIN test to derive significant level
+
+df_CorticalOrganizationHierarchy_Maps_Glasser180.RData - Glasser parcellation coordinate
+gradient_correlation_withSPIN_test_morePCs_DearEtal_geneset_size_correction.R - script for analysis
+functions - accessory functions

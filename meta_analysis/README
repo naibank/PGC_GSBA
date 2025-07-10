@@ -1,0 +1,4 @@
+Rscripts for running meta-analysis on summary statistics generated from individual platform analysis.
+
+meta_gene_analysis.R - meta analysis for gene-level
+meta_geneset_analysis.R - meta analysis for gene-set-level
