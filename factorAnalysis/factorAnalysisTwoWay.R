@@ -449,6 +449,7 @@ dev.off()
 
 efa_result <- fa(cor_mat, nfactors = num_factors, rotate = "oblimin", fm = "ml")
 loadings_matrix <- as.matrix(efa_result$loadings[, 1:num_factors])
+loadings_matrix <- loadings_matrix[, c("ML1", "ML2", "ML3")]
 
 sem_df <- as.data.table(loadings_matrix)
 sem_df$Trait <- rownames(loadings_matrix)
